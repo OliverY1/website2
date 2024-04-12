@@ -42,4 +42,21 @@ if selected == "Hem":
 
 if selected == "Om oss":
     st.title("Vi är BangBros")
+    st.text("I dimmornas skimmer, där skogens tysta viskningar fångar öronen på de vaksamma och nattens stjärnor lyser som lysmaskar i det svarta täcket av himlen, uppenbarar sig en gåta vars svar är skrivet i stjärnorna: "Gåtornas Arvtagare."
+
+I en by gömd bland träden, där tidens flod bär med sig minnen från forna dagar och skuggorna dansar sin tysta dans på de mossklädda stenarna, samlas fem föräldralösa själar, var och en bärande en nyckel till en gåta som sträcker sig över världar och tider.
+
+Oliver, med sina ljusa ögon som speglar månens sken, bär med sig en gnista av äventyr och en nyckel som smiddes i skymningens glöd.
+
+Laok, tystlåten och vis, vägleder med sina ord de andra genom dunklet, och i sin hand bär han en nyckel som varit förborgad i jordens inre.
+
+Melvin, den ständige optimisten, sprider sitt skratt över dalen och bär på en nyckel som hittats bland de glömda sidorna av en bok.
+
+Josef, med sitt mod som starkare än stål, leder de andra framåt och bär med sig en nyckel som skapats av ljuset från gryningen.
+
+Omar, den vise och den som ser bortom horisonten, bär med sig en nyckel som funnits i de djupaste drömmarna.
+
+Dessa fem själar, förenade av ödets omsorgsfulla hand, är de utvalda att lösa gåtornas gåta och återuppliva minnet av det förlorade arvet.
+
+Genom dimmornas slöjor och skuggornas dans ska de vandra, på jakt efter sanningen bakom Gåtornas Arvtagare och sanningen som gömmer sig i deras hjärtan."
 
