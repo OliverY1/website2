@@ -42,7 +42,7 @@ if selected == "Hem":
 
 if selected == "Om oss":
     st.title("Vi är BangBros")
-    st.text("I dimmornas skimmer, där skogens tysta viskningar fångar öronen på de vaksamma och nattens stjärnor lyser som lysmaskar i det svarta täcket av himlen, uppenbarar sig en gåta vars svar är skrivet i stjärnorna: "Gåtornas Arvtagare."
+    st.text("I dimmornas skimmer, där skogens tysta viskningar fångar öronen på de vaksamma och nattens stjärnor lyser som lysmaskar i det svarta täcket av himlen, uppenbarar sig en gåta vars svar är skrivet i stjärnorna: \"Gåtornas Arvtagare.\"
 
 I en by gömd bland träden, där tidens flod bär med sig minnen från forna dagar och skuggorna dansar sin tysta dans på de mossklädda stenarna, samlas fem föräldralösa själar, var och en bärande en nyckel till en gåta som sträcker sig över världar och tider.
 
