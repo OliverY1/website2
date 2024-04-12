@@ -41,6 +41,7 @@ if selected == "Hem":
             st.text("Min favorit \nvattentank. Josef \när den klumpiga \nmedlemmen av \ngruppen. \nHan är ökänd för \natt ständigt \nstöta till saker, \nspilla saker och \nallmänt \norsaka kaos runt \nomkring sig.")
 
 if selected == "Om oss":
+    st.title("Om oss")
     st.text("I en dold by, insvept i skogens")
     st.text("tysta sånger och månens sken,")
     st.text("samlas fem själar – Oliver, Laok, Melvin, Josef och Omar.")
