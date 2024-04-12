@@ -38,7 +38,7 @@ if selected == "Hem":
     with col4:
         st.image("jos.jpg")
         if st.button("Josef"):
-            st.text("Min favorit \n vattentank")
+            st.text("Min favorit \nvattentank")
 
 if selected == "Om oss":
     st.title("Vi är BangBros")
