@@ -23,7 +23,7 @@ if selected == "Hem":
     with col1:
         st.image("Laok.jpg")
         if st.button("Laok"):
-            st.text("Min favorit kurd. \nLaok är den \nklantigaste av dem alla. \nHan har en förmåga \natt kliva rakt in \ni situationer utan \natt tänka och orsakar \noavsiktliga skador \noch olyckor vart han \nän går. Hans närvaro \när som en \nticking time bomb av \nklumpighet.")
+            st.text("Min favorit kurd. \nLaok är den \nklantigaste av dem \nalla. \nHan har en förmåga \natt kliva rakt in \ni situationer utan \natt tänka och \norsakar \noavsiktliga skador \noch olyckor vart \nhan \nän går. Hans \nnärvaro \när som en \nticking time bomb \nav \nklumpighet.")
     
     with col2:
         st.image("Melle2.jpg")
