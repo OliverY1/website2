@@ -28,7 +28,7 @@ if selected == "Hem":
     with col2:
         st.image("Melle2.jpg")
         if st.button("Melvin"):
-            st.text("Min favorit apa.\nMelvin är den \ndrömmande idealisten i \ngruppen. Han har \nalltid sitt huvud i \nmolnen och tror på \ndet bästa i alla \nmänniskor. Tyvärr gör \nhans naivitet honom \ntill ett lätt byte \nför luriga typer.") 
+            st.text("Min favorit apa.\nMelvin är den \ndrömmande idealisten \ni gruppen. Han har \nalltid sitt huvud i \nmolnen och tror på \ndet bästa i alla \nmänniskor. Tyvärr gör \nhans naivitet honom \ntill ett lätt byte \nför luriga typer.") 
 
     with col3:
         st.image("om.jpg")
