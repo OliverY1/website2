@@ -28,12 +28,12 @@ if selected == "Hem":
     with col2:
         st.image("Melle2.jpg")
         if st.button("Melvin"):
-            st.write("Min favorit apa.Melvin är den drömmande idealisten i gruppen. Han har alltid sitt huvud i molnen och tror på det bästa i alla människor. Tyvärr gör hans naivitet honom till ett lätt byte för luriga typer.") 
+            st.write("Min favorit apa. Melvin är den drömmande idealisten i gruppen. Han har alltid sitt huvud i molnen och tror på det bästa i alla människor. Tyvärr gör hans naivitet honom till ett lätt byte för luriga typer.") 
 
     with col3:
         st.image("om.jpg")
         if st.button("Omar"):
-            st.write("Min favorit sandätare.Omar är den som alltid tror sig ha lösningen på allt, men i själva verket är hans idéer vanligtvis helt bisarra och leder oftast till kaos. Han är den som alltid föreslår att de ska göra något extremt dumt bara för att det låter \"roligt\".")
+            st.write("Min favorit sandätare. Omar är den som alltid tror sig ha lösningen på allt, men i själva verket är hans idéer vanligtvis helt bisarra och leder oftast till kaos. Han är den som alltid föreslår att de ska göra något extremt dumt bara för att det låter \"roligt\".")
     
     with col4:
         st.image("jos.jpg")
