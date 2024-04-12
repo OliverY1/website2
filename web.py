@@ -58,5 +58,5 @@ Omar, den vise och den som ser bortom horisonten, bär med sig en nyckel som fun
 
 Dessa fem själar, förenade av ödets omsorgsfulla hand, är de utvalda att lösa gåtornas gåta och återuppliva minnet av det förlorade arvet.
 
-Genom dimmornas slöjor och skuggornas dans ska de vandra, på jakt efter sanningen bakom Gåtornas Arvtagare och sanningen som gömmer sig i deras hjärtan."
+Genom dimmornas slöjor och skuggornas dans ska de vandra, på jakt efter sanningen bakom Gåtornas Arvtagare och sanningen som gömmer sig i deras hjärtan.")
 
