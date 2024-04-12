@@ -14,7 +14,7 @@ with st.sidebar:
     )
 
 
-col1, col2 = st.columns([4, 4])
+col1, col2, col3, col4 = st.columns([4, 4, 4, 4])
 
 if selected == "Hem":
     st.title("BangBros")
@@ -28,9 +28,18 @@ if selected == "Hem":
     with col2:
         st.image("Melle2.jpg")
         if st.button("Melvin"):
-            st.text("Min favorit apa")
+            st.text("Min favorit apa") 
+
+    with col3:
+        st.image("om.jpg")
+        if st.button("Omar"):
+            st.text("Min favorit sandätare")
+    
+    with col4:
+        st.image("jos.jpg")
+        if st.button("Josef"):
+            st.text("Min favorit vattentank")
 
 if selected == "Om oss":
     st.title("Vi är BangBros")
-    st.text("Vi på BangBros AB planerar ett attentat i Kurdistan, donera till oss")
 
