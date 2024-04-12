@@ -33,7 +33,7 @@ if selected == "Hem":
     with col3:
         st.image("om.jpg")
         if st.button("Omar"):
-            st.text("Min favorit \nsandätare.Omar är \nden som alltid \ntror sig ha \nlösningen på \nallt, men i själva \nverket \när hans idéer vanligtvis \nhelt bisarra och \nleder oftast till \nkaos. Han är den \nsom alltid föreslår \natt de ska göra \nnågot extremt dumt \nbara för att det \nlåter \"roligt\".")
+            st.text("Min favorit \nsandätare.Omar är \nden som alltid \ntror sig ha \nlösningen på \nallt, men i själva \nverket \när hans idéer \nvanligtvis \nhelt bisarra och \nleder oftast till \nkaos. Han är den \nsom alltid föreslår \natt de ska göra \nnågot extremt dumt \nbara för att det \nlåter \"roligt\".")
     
     with col4:
         st.image("jos.jpg")
