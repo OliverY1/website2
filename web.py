@@ -23,22 +23,23 @@ if selected == "Hem":
     with col1:
         st.image("Laok.jpg")
         if st.button("Laok"):
-            st.text("Min favorit kurd. \nLaok är den \nklantigaste av dem \nalla. \nHan har en förmåga \natt kliva rakt in \ni situationer utan \natt tänka och \norsakar \noavsiktliga skador \noch olyckor vart \nhan \nän går. Hans \nnärvaro \när som en \nticking time bomb \nav \nklumpighet.")
+            st.text("Min favorit kurd. \nLaok är den \nklantigaste av dem \nalla. Han har \nen förmåga att \bkliva rakt in \ni situationer utan \natt tänka och \norsakar oavsiktliga skador \noch olyckor vart \nhan än går. \nHans närvaro \när som en \nticking time bomb \nav klumpighet.")
     
     with col2:
         st.image("Melle2.jpg")
         if st.button("Melvin"):
-            st.text("Min favorit apa.\nMelvin är den drömmande idealisten i gruppen. Han har alltid sitt huvud i molnen och tror på det bästa i alla människor. Tyvärr gör hans naivitet honom till ett lätt byte för luriga typer.") 
+            st.text("Min favorit apa.\nMelvin är den \ndrömmande idealisten i \ngruppen. Han har \nalltid sitt huvud i \nmolnen och tror på \ndet bästa i alla \nmänniskor. Tyvärr gör \nhans naivitet honom \ntill ett lätt byte \nför luriga typer.") 
 
     with col3:
         st.image("om.jpg")
         if st.button("Omar"):
-            st.text("Min favorit sandätare.\nOmar är den som alltid tror sig ha lösningen på allt, men i själva verket är hans idéer vanligtvis helt bisarra och leder oftast till kaos. Han är den som alltid föreslår att de ska göra något extremt dumt bara för att det låter \"roligt\".")
+            st.text("Min favorit sandätare.\nOmar är den som alltid \ntror sig ha lösningen på \nallt, men i själva verket \när hans idéer vanligtvis \nhelt bisarra och \nleder oftast till \nkaos. Han är den \nsom alltid föreslår \natt de ska göra \nnågot extremt dumt \nbara för att det \nlåter \"roligt\".")
     
     with col4:
         st.image("jos.jpg")
         if st.button("Josef"):
-            st.text("Min favorit vattentank.\nJosef är den klumpiga medlemmen av gruppen. Han är ökänd för att ständigt stöta till saker, spilla saker och allmänt orsaka kaos runt omkring sig.")
+            st.text("Min favorit vattentank.\nJosef är den klumpiga \nmedlemmen av gruppen. \nHan är ökänd för att \nständigt stöta till saker, \nspilla saker och allmänt \norsaka kaos runt \nomkring sig.")
 
 if selected == "Om oss":
     st.title("Vi är BangBros")
+
