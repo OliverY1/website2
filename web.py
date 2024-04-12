@@ -38,7 +38,7 @@ if selected == "Hem":
     with col4:
         st.image("jos.jpg")
         if st.button("Josef"):
-            st.text("Min favorit vattentank.\nJosef är den klumpiga \nmedlemmen av gruppen. \nHan är ökänd för att \nständigt stöta till saker, \nspilla saker och allmänt \norsaka kaos runt \nomkring sig.")
+            st.text("Min favorit \nvattentank.Josef \när den klumpiga \nmedlemmen av gruppen. \nHan är ökänd för att \nständigt stöta till saker, \nspilla saker och allmänt \norsaka kaos runt \nomkring sig.")
 
 if selected == "Om oss":
     st.title("Vi är BangBros")
