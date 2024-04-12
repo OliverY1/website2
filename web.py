@@ -43,15 +43,15 @@ if selected == "Hem":
 if selected == "Om oss":
     st.title("Vi är BangBros")
     st.text("I en dold by, insvept i skogens tysta sånger och månens sken, samlas fem själar.")
-    st.text("Oliver, Laok, Melvin, Josef och Omar. Deras liv flätas samman av en gåtfull ödets tråd")
-    st.text("Oliver bär en nyckel smidd av månens ljus, Laok har en gåva från jorden, Melvin bär solens")
-    st.text("strålar, Josef bär gryningens nyckel och Omar bär drömmarnas gåva. Deras gemensamma sökande")
-    st.text("tar dem genom dimmiga skogspassager och tätt lövverk, på jakt efter sanningen som vilar i det")
-    st.text("förlorade arvets skuggor.Omar, den vise och den som ser bortom horisonten, bär med sig en nyckel")
-    st.text("som funnits i de djupaste drömmarna. Dessa fem själar, förenade av ödets omsorgsfulla hand, är de")
+    st.text("Oliver, Laok, Melvin, Josef och Omar. Deras liv flätas samman av en gåtfull")
+    st.text("ödets tråd. Oliver bär en nyckel smidd av månens ljus, Laok har en gåva från jorden,")
+    st.text("Melvin bär solens strålar, Josef bär gryningens nyckel och Omar bär drömmarnas gåva.")
+    st.text("Deras gemensamma sökande tar dem genom dimmiga skogspassager och tätt lövverk,")
+    st.text("på jakt efter sanningen som vilar i det förlorade arvets skuggor.Omar, den vise")
+    st.text("och den som ser bortom horisonten, bär med sig en nyckel som funnits i de djupaste")
     st.text("utvalda att lösa gåtornas gåta och återuppliva minnet av det förlorade arvet.")
-    st.text("Genom dimmornas slöjor och skuggornas dans ska de vandra, på jakt efter sanningen bakom Gåtornas")
-    st.text("Arvtagare och sanningen som gömmer sig i deras hjärtan.")
-
+    st.text("drömmarna. Dessa fem själar, förenade av ödets omsorgsfulla hand, är de Genom")
+    st.text("dimmornas slöjor och skuggornas dans ska de vandra, på jakt efter sanningen ")
+    st.text(" bakom Gåtornas Arvtagare och sanningen som gömmer sig i deras hjärtan.")
 
 
