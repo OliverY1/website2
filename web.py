@@ -23,23 +23,22 @@ if selected == "Hem":
     with col1:
         st.image("Laok.jpg")
         if st.button("Laok"):
-            st.text("Min favorit kurd")
+            st.text("Min favorit kurd. \nLaok är den klantigaste av dem alla. Han har en förmåga att kliva rakt in i situationer utan att tänka och orsakar oavsiktliga skador och olyckor vart han än går. Hans närvaro är som en ticking time bomb av klumpighet.")
     
     with col2:
         st.image("Melle2.jpg")
         if st.button("Melvin"):
-            st.text("Min favorit apa") 
+            st.text("Min favorit apa.\nMelvin är den drömmande idealisten i gruppen. Han har alltid sitt huvud i molnen och tror på det bästa i alla människor. Tyvärr gör hans naivitet honom till ett lätt byte för luriga typer.") 
 
     with col3:
         st.image("om.jpg")
         if st.button("Omar"):
-            st.text("Min favorit sandätare")
+            st.text("Min favorit sandätare.\nOmar är den som alltid tror sig ha lösningen på allt, men i själva verket är hans idéer vanligtvis helt bisarra och leder oftast till kaos. Han är den som alltid föreslår att de ska göra något extremt dumt bara för att det låter \"roligt\".")
     
     with col4:
         st.image("jos.jpg")
         if st.button("Josef"):
-            st.text("Min favorit \nvattentank")
+            st.text("Min favorit vattentank.\nJosef är den klumpiga medlemmen av gruppen. Han är ökänd för att ständigt stöta till saker, spilla saker och allmänt orsaka kaos runt omkring sig.")
 
 if selected == "Om oss":
     st.title("Vi är BangBros")
-
