@@ -1,4 +1,5 @@
 import random
+import base64
 import streamlit as st
 from streamlit_option_menu import option_menu as op
 
