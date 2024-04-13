@@ -15,6 +15,43 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+def motivation():
+    peppande_meningar = [
+    "Drömmar är som stjärnor på himlen - låt dem guida dig till ditt öde.",
+    "Varje steg mot dina drömmar är ett steg mot din självförverkligande.",
+    "Du är kaptenen av ditt eget skepp, styr det mot dina drömmars horisont.",
+    "Tro på din förmåga att förvandla drömmar till verklighet.",
+    "Världen väntar på att se din potential blomma ut.",
+    "Ingenting kan stoppa dig när du brinner för din passion.",
+    "Var envis som en myra och stark som en björn när du förföljer dina mål.",
+    "Varje misslyckande är bara ett tillfälligt hinder på vägen till framgång.",
+    "När du känner dig svag, kom ihåg varför du började.",
+    "Ditt mål är värt varje svett dropp och tår.",
+    "Du är född för att skina, låt ingen slockna din glöd.",
+    "Livet belönar dem som vågar drömma stort och handla modigt.",
+    "Vägen till framgång är ibland krokig, men det är värt resan.",
+    "Ingenting är omöjligt för den som är fast besluten och villig att arbeta hårt.",
+    "Se varje dag som en möjlighet att närma dig dina drömmar.",
+    "Ditt liv är din konstverk - måla det med färger av ambition och mod.",
+    "Låt dina drömmar vara starkare än dina rädslor.",
+    "Framgång kommer till dem som inte ger upp när det blir tufft.",
+    "Ge aldrig upp på dig själv - du är starkare än du tror.",
+    "Det är aldrig för sent att börja jaga dina drömmar.",
+    "Om du kan drömma det, kan du uppnå det med hårt arbete och uthållighet.",
+    "Var din egen hjälte och skapa ditt eget sagoslut.",
+    "Du är en stjärna som förtjänar att lysa på din egen himmel.",
+    "När du når dina drömmar kommer du att inspirera andra att följa sina.",
+    "Varje dag är en ny chans att göra ditt liv extraordinärt.",
+    "Ditt liv är en bok - skriv ett kapitel fyllt av äventyr och framgång.",
+    "Det är inte viktigt hur långsamt du går, så länge du inte stannar.",
+    "Ge allt du har, och då kommer livet att ge tillbaka till dig tiofalt.",
+    "Du är mer kapabel än du någonsin kunnat föreställa dig.",
+    "Drömmar är inte bara för att fantisera om - de är för att förverkligas."
+    ]
+    h = random.randint(0, 29)
+    return peppande_meningar[h]
+
+
 def fun():
     fun_facts_lista = [
     "Bananer är bär, men jordgubbar är inte det!",
@@ -86,7 +123,7 @@ def ragg():
     "Finns det en spegel i din ficka? För jag kan se mig själv i dina byxor.",
     "Har du en solskensdag? För du får min dag att lysa upp."
     ]
-    i = random.randint(0, 29)
+    i = random.randint(0, 30)
     return raggningsrepliker[i]
 
 def komplimang():
@@ -160,7 +197,7 @@ def skamt():
     "Varför var pianot så tyst? För att det inte hade några nycklar.",
     "Vad sa den ena skon till den andra? Vad är uppdraget? Vi har gått igenom det tillsammans!",
     ]
-    x = random.randint(0,29)
+    x = random.randint(0,30)
     return(skamt_lista[x])
 
 def sidebar_bg(side_bg):
@@ -215,7 +252,7 @@ def dep():
     "Många människor kämpar med att hitta meningen med livet och döden och känner sig vilsna och förvirrade i en värld som ibland kan kännas meningslös och absurd."
     ]
 
-    f = random.randint(0, 29)
+    f = random.randint(0, 30)
     return(ledsamma_fakta_lista[f])
 
 
@@ -253,7 +290,7 @@ col1, col2, col3, col4 = st.columns([4, 4, 4, 4])
 if selected == "Hem":
     set_background("bckg.png")
     st.title("BangBros")
-    st.header("Laok älskar feta tjejer")
+    st.header("Stay tuned for more")
 
     with col1:
         st.image("Laok.jpg")
@@ -300,8 +337,11 @@ if selected == "Generator":
     if st.button("Depressing fact"):
         st.write(dep())
 
+    if st.button("Motivation"):
+        st.write(motivation())
+
 if selected == "Blogg":
     set_background("note.jpg")
     st.title("Blogg")
     st.header("2024-04-13")
-    st.write("Idag har hemsidan lanserats! Vårblommorna har börjat kika fram!")
+    st.write("Idag har hemsidan lanserats!")
