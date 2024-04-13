@@ -1,2 +1,2 @@
 streamlit_option_menu
-streamlit 1.33.0
+streamlit
