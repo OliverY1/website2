@@ -158,7 +158,7 @@ with st.sidebar:
     selected = op(
         menu_title="Meny",
         options=["Hem", "Om oss", "Generator"],
-        icons=["house-heart-fill", "calendar2-heart-fill"],
+        icons=["house-heart-fill", "calendar2-heart-fill", "robot"],
         menu_icon="house-heart-fill",
         default_index=0,
     )
@@ -191,16 +191,7 @@ if selected == "Hem":
 
     with col1:
         st.image("Laok.jpg")
-        if 'button' not in st.session_state:
-            st.session_state.button = False
-
-        def click_button():
-            st.session_state.button = not st.session_state.button
-
-        st.button('Laok', on_click=click_button)
-
-        if st.session_state.button:
-    
+        if st.button("Laok"):
             st.write("Min favorit kurd. Laok är den klantigaste av dem alla. Han har en förmåga att kliva rakt in i situationer utan att tänka och orsakar oavsiktliga skador och olyckor vart han än går. Hans närvaro är som en ticking time bomb av klumpighet.")
     
             
