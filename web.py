@@ -301,6 +301,7 @@ if selected == "Generator":
         st.write(dep())
 
 if selected == "Blogg":
+    set_background("note.jpg")
     st.title("Blogg")
     st.header("2024-04-13")
     st.write("Idag har hemsidan lanserats! Vårblommorna har börjat kika fram!")
