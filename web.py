@@ -7,7 +7,6 @@ st.set_page_config(page_title="BangBros", page_icon="random", layout="centered",
     "Get help": "https://www.pornhub.com"
 },)
 
-st.markdown(footer, unsafe_allow_html=True)
 
 hide_streamlit_style = """
             <style>
