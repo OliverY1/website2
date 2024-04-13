@@ -123,7 +123,7 @@ def ragg():
     "Finns det en spegel i din ficka? För jag kan se mig själv i dina byxor.",
     "Har du en solskensdag? För du får min dag att lysa upp."
     ]
-    i = random.randint(0, 30)
+    i = random.randint(0, 29)
     return raggningsrepliker[i]
 
 def komplimang():
@@ -197,7 +197,7 @@ def skamt():
     "Varför var pianot så tyst? För att det inte hade några nycklar.",
     "Vad sa den ena skon till den andra? Vad är uppdraget? Vi har gått igenom det tillsammans!",
     ]
-    x = random.randint(0,30)
+    x = random.randint(0,29)
     return(skamt_lista[x])
 
 def sidebar_bg(side_bg):
@@ -252,7 +252,7 @@ def dep():
     "Många människor kämpar med att hitta meningen med livet och döden och känner sig vilsna och förvirrade i en värld som ibland kan kännas meningslös och absurd."
     ]
 
-    f = random.randint(0, 30)
+    f = random.randint(0, 29)
     return(ledsamma_fakta_lista[f])
 
 
