@@ -1,4 +1,2 @@
 streamlit_option_menu
 streamlit
-random
-base64
