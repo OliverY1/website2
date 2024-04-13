@@ -214,8 +214,8 @@ def dep():
 with st.sidebar:
     selected = op(
         menu_title="Meny",
-        options=["Hem", "Om oss", "Generator"],
-        icons=["house-door-fill", "people-fill", "robot"],
+        options=["Hem", "Om oss", "Generator", "Blogg"],
+        icons=["house-heart-fill", "calendar2-heart-fill", "robot", "journal-text"],
         menu_icon="list",
         default_index=0,
     )
@@ -290,3 +290,8 @@ if selected == "Generator":
 
     if st.button("Depressing fact"):
         st.write(dep())
+
+if selected == "Blogg":
+    st.title("Blogg")
+    st.header("2024-04-13")
+    st.write("Idag har hemsidan lanserats!")
