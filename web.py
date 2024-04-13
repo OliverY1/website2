@@ -154,7 +154,7 @@ def skamt():
     return(skamt_lista[x])
 
 def dep():
-    nedslående_facts_lista = [
+    nedslaende_facts_lista = [
     "Varje år tar självmord fler liv än krig, mord och naturkatastrofer tillsammans.",
     "Över 264 miljoner människor i världen lider av depression.",
     "Enligt WHO lider en person av depression varje 40:e sekund någonstans i världen.",
@@ -187,7 +187,7 @@ def dep():
     "Att prata med någon om dina känslor kan vara det första steget mot att må bättre."
     ]
     f = random.randint(0, 30)
-    return nedslående_facts_lista[f]
+    return nedslaende_facts_lista[f]
 
 
 
