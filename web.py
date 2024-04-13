@@ -7,7 +7,13 @@ st.set_page_config(page_title="BangBros", page_icon="random", layout="centered",
     "Get help": "https://www.pornhub.com"
 },)
 
-
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 def fun():
     fun_facts_lista = [
