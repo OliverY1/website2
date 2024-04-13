@@ -7,6 +7,20 @@ st.set_page_config(page_title="BangBros", page_icon="random", layout="centered",
     "Get help": "https://www.pornhub.com"
 },)
 
+footer="
+
+<style> your css code put here</style>
+
+<div class='footer'>
+
+<p>t"Hello"<a style='display:block;text-align:center;' 
+
+href='https://www.streamlit.io' target='_blank'>"https://www.streamlit.io"</a></p>
+
+</div>"
+
+st.markdown(footer, unsafe_allow_html=True)
+
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
