@@ -38,7 +38,7 @@ def fun():
     "Den kortaste kriget någonsin var mellan Storbritannien och Zanzibar den 27 augusti 1896. Zanzibar gav upp efter 38 minuter.",
     "När du blundar ser du färger och mönster som kallas för \"färg och mönster\" hallucinationer.",
     ]
-    v = random.randint(0, 30)
+    v = random.randint(0, 28)
     return(fun_facts_lista[v])
 
 
