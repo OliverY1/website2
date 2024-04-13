@@ -190,6 +190,7 @@ if selected == "Om oss":
 
 if selected == "Generator":
     st.title("Generera olika saker")
+    set_background("bckg.png")
     
     if st.button("Raggningsreplik"):
         st.write(ragg())
