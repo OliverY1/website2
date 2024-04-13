@@ -7,6 +7,19 @@ st.set_page_config(page_title="BangBros", page_icon="random", layout="centered",
     "Get help": "https://www.pornhub.com"
 },)
 
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .stMarkdown p:last-child {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+
+
 hide_streamlit_style = """
             <style>
             [data-testid="stToolbar"] {visibility: hidden !important;}
