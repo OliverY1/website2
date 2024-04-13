@@ -7,7 +7,8 @@ st.set_page_config(page_title="BangBros", page_icon="random", layout="centered",
     "Get help": "https://www.pornhub.com"
 },)
 
- <style>
+hide_streamlit_style = """
+            <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             </style>
