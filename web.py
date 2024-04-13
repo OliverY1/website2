@@ -154,40 +154,42 @@ def skamt():
     return(skamt_lista[x])
 
 def dep():
-    nedslaende_facts_lista = [
-    "Varje år tar självmord fler liv än krig, mord och naturkatastrofer tillsammans.",
-    "Över 264 miljoner människor i världen lider av depression.",
-    "Enligt WHO lider en person av depression varje 40:e sekund någonstans i världen.",
-    "Ungefär 800 000 människor tar sitt liv varje år, vilket innebär att en person dör av självmord var 40:e sekund.",
-    "Depression är den ledande orsaken till funktionsnedsättning världen över.",
-    "Varje år tar över 17 miljoner människor sitt eget liv.",
-    "Ungefär 20procent av tonåringarna upplever depression före de når vuxen ålder.",
-    "Depression kan fördubbla risken för att utveckla hjärtsjukdomar.",
-    "Män är mindre benägna att söka hjälp för depression än kvinnor.",
-    "Mellan 2procent och 15procent av personer som upplever klinisk depression tar sitt liv.",
-    "Depression är den främsta orsaken till självmord bland unga vuxna i åldern 15-24 år.",
-    "Bara hälften av personer med depression får någon form av behandling.",
-    "Depression är inte bara en \"känslomässig\" sjukdom, den kan också påverka fysisk hälsa.",
-    "Depression är inte en känslomässig svaghet, utan en allvarlig medicinsk sjukdom.",
-    "Upp till 15procent av kvinnor upplever depression efter förlossningen.",
-    "Depression kan orsaka minnesproblem och nedsatt koncentrationsförmåga.",
-    "Personer med depression löper en högre risk att utveckla missbruk av alkohol och andra droger.",
-    "Att inte få tillräckligt med sömn kan förvärra symtomen på depression.",
-    "Depression kan påverka aptiten och leda till viktökning eller viktnedgång.",
-    "För många människor med depression tar det flera försök innan de hittar en behandling som fungerar för dem.",
-    "Depression kan påverka din förmåga att fungera i vardagen, inklusive ditt arbete och dina relationer.",
-    "Barn kan också drabbas av depression, även om de kanske inte kan uttrycka det på samma sätt som vuxna.",
-    "Även om det finns effektiva behandlingar för depression, får många människor aldrig tillgång till dem.",
-    "Social isolering och ensamhet kan förvärra symtomen på depression.",
-    "Depression kan påverka din förmåga att uppleva glädje och njutning.",
-    "Det är viktigt att söka professionell hjälp om du känner dig deprimerad eller har självmordstankar.",
-    "Självmord är en permanent lösning på en tillfällig smärta.",
-    "Människor med depression kan känna sig som om de är en belastning för sina nära och kära.",
-    "Det finns hopp och hjälp för personer som lider av depression.",
-    "Att prata med någon om dina känslor kan vara det första steget mot att må bättre."
+    ledsamma_fakta_lista = [
+    "Varje dag dör tusentals barn av svält runt om i världen.",
+    "Många djurarter riskerar att bli utrotade på grund av människans aktiviteter.",
+    "Miljontals människor lever i extrem fattigdom utan tillgång till rent vatten eller tillräcklig näring.",
+    "Många människor lider av kroniska sjukdomar och smärtsamma tillstånd utan tillgång till adekvat vård.",
+    "Barn över hela världen tvingas arbeta under farliga och exploaterande förhållanden istället för att gå i skolan.",
+    "Många människor lever under förtryckande regimer utan möjlighet att uttrycka sig fritt eller leva sina liv i frihet.",
+    "Miljoner människor är tvungna att fly från sina hem på grund av krig, konflikter och naturkatastrofer, och många av dem lever i flyktingläger under svåra förhållanden.",
+    "Många människor lider av psykisk ohälsa och kämpar dagligen med ångest, depression och andra svåra tillstånd.",
+    "Många barn växer upp i dysfunktionella familjer och lider av misshandel, försummelse och andra former av trauma.",
+    "Många människor kämpar dagligen för att överleva i en värld som ofta känns orättvis och oberäknelig.",
+    "Många äldre människor lever i ensamhet och isolering utan tillräckligt stöd från samhället.",
+    "Många människor känner sig ensamma och isolerade, även i en värld där vi är mer uppkopplade än någonsin tidigare.",
+    "Många människor kämpar med självhat och självförtroende, och känner sig otillräckliga eller värdelösa.",
+    "Många människor lever i ständig rädsla för att bli utnyttjade, övergivna eller förlorade.",
+    "Många människor lever i områden som drabbas av krig, konflikter och våld, och tvingas leva sina liv under ständig hotbild.",
+    "Många människor har förlorat sina nära och kära till sjukdomar, olyckor eller våldsamheter, och kämpar med sorgen och smärtan av deras förlust.",
+    "Många människor känner sig fångade i sina egna tankar och känslor och vet inte hur de ska ta sig ur sin ångest och depression.",
+    "Många människor kämpar med missbruk av alkohol, droger eller andra substanser och kämpar för att bryta sig loss från sina beroenden.",
+    "Många människor lever i permanent fattigdom och har ingen möjlighet att förbättra sina livsvillkor eller skapa en bättre framtid för sig själva eller sina familjer.",
+    "Många människor kämpar med att acceptera sig själva för den de är och känner sig aldrig tillräckligt bra eller värdefulla.",
+    "Många människor kämpar med att hitta mening och syfte i sina liv och känner sig vilse och förvirrade i en värld som ibland kan kännas meningslös och tom.",
+    "Många människor kämpar med att hantera sina känslor av ilska, hat och förbittring mot sig själva eller andra och kämpar för att förlåta och släppa taget om det förflutna.",
+    "Många människor kämpar med att känna sig älskade och uppskattade och känner sig ensamma och övergivna i en värld som ibland kan vara kall och oberörd.",
+    "Många människor kämpar med att hitta hopp och tro på en bättre framtid för sig själva och sina nära och kära och känner sig nedslagna och förtvivlade inför framtiden.",
+    "Många människor kämpar med att hitta mening och lycka i sina liv och känner sig otillfredsställda och tomma trots materiell framgång och yttre framgångar.",
+    "Många människor kämpar med att känna sig accepterade och förstådda av andra och känner sig utfrysta och ensamma i en värld där det kan vara svårt att passa in.",
+    "Många människor kämpar med att finna frid och ro i sina liv och känner sig ständigt stressade och överväldigade av krav och förväntningar från andra och sig själva.",
+    "Många människor kämpar med att känna sig trygga och säkra i sina liv och känner sig rädda och osäkra i en värld som ibland kan vara farlig och hotfull.",
+    "Många människor kämpar med att övervinna sina rädslor och osäkerheter och känner sig fast i sina egna begränsande tankar och beteenden.",
+    "Många människor kämpar med att hitta meningen med livet och döden och känner sig vilsna och förvirrade i en värld som ibland kan kännas meningslös och absurd."
     ]
+
     f = random.randint(0, 30)
-    return nedslaende_facts_lista[f]
+    return(ledsamma_fakta_lista[f])
+
 
 
 
