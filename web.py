@@ -7,16 +7,12 @@ st.set_page_config(page_title="BangBros", page_icon="random", layout="centered",
     "Get help": "https://www.pornhub.com"
 },)
 
-#----------------------Hide Streamlit footer----------------------------
-hide_st_style = “”"
-
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;}
-
-“”"
-st.markdown(hide_st_style, unsafe_allow_html=True)
-#--------------------------------------------------------------------
+ <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 hide_streamlit_style = """
             <style>
