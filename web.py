@@ -159,7 +159,7 @@ with st.sidebar:
         menu_title="Meny",
         options=["Hem", "Om oss", "Generator"],
         icons=["house-door-fill", "people-fill", "robot"],
-        menu_icon="house-heart-fill",
+        menu_icon="list",
         default_index=0,
     )
 
