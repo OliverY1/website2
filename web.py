@@ -1,9 +1,10 @@
-import streamlit as st
 import base64
+import streamlit as st
 import random
 from streamlit_option_menu import option_menu as op
 
 st.set_page_config(page_title="BangBros", page_icon="random", layout="centered", initial_sidebar_state="auto", menu_items=None)
+
 
 def ragg():
     raggningsrepliker = [
@@ -39,9 +40,82 @@ def ragg():
     "Finns det en spegel i din ficka? För jag kan se mig själv i dina byxor.",
     "Har du en solskensdag? För du får min dag att lysa upp."
     ]
-    i = random.randint(0, 29)
+    i = random.randint(0, 30)
     return raggningsrepliker[i]
 
+def komplimang():
+    komplimang_lista = [
+    "Du har en strålande personlighet!",
+    "Ditt leende lyser upp hela rummet!",
+    "Du är otroligt intelligent!",
+    "Din optimism är smittsam!",
+    "Din kreativitet är inspirerande!",
+    "Du har en fantastisk humor!",
+    "Du är väldigt omtänksam och empatisk!",
+    "Din styrka och uthållighet är beundransvärd!",
+    "Ditt självförtroende är inspirerande!",
+    "Du är en fantastisk lyssnare!",
+    "Din närvaro gör alltid dagen bättre!",
+    "Du är så charmig!",
+    "Ditt mod imponerar mig!",
+    "Du är så begåvad!",
+    "Din vänlighet värmer hjärtat!",
+    "Din energi är smittande!",
+    "Du är en förebild för många!",
+    "Din passion är beundransvärd!",
+    "Din generositet känner inga gränser!",
+    "Du har en magnetisk personlighet!",
+    "Ditt engagemang är enastående!",
+    "Du är så pålitlig!",
+    "Din entusiasm är inspirerande!",
+    "Din karisma är otrolig!",
+    "Du är en sådan glädjespridare!",
+    "Din positiva attityd är smittsam!",
+    "Din empati gör världen till en bättre plats!",
+    "Din ödmjukhet är beundransvärd!",
+    "Du har en förmåga att göra andra känna sig sedda och uppskattade!",
+    "Du är otroligt vacker, både inuti och utanpå!"
+    ]
+    c = random.randint(0, 30)
+    return(komplimang_lista[c])
+
+
+
+def skamt():
+    skamt_lista = [
+    "Varför kunde cykeln inte stå upp själv? För att den var tvåhjulskapabel!",
+    "Vad sa en penna till en annan penna? Du skriver så bra!",
+    "Varför delar inte astronauter sina skämt? För de landar inte.",
+    "Vad sa den ena vågen till den andra vågen? Ingenting, de bara viftade.",
+    "Varför blev solen så arg? För att den hade fått solsting.",
+    "Vad gjorde en fågel när den var sjuk? Den gick till en flygande doktor.",
+    "Varför kan inte bananer vara ensamma? För att de kommer i klungor.",
+    "Vad sa den ena ballongen till den andra? Känner du dig uppblåst?",
+    "Varför gick pappret till doktorn? För att det var skrivet på.",
+    "Vad gjorde havet när det blev argt? Det drog en våg till stranden.",
+    "Varför blev bilden arresterad? För att den hängde sig själv.",
+    "Vad sa den ena kudden till den andra? Sov gott!",
+    "Varför grävde grodan ett hål i golvet? För att den ville komma till underjorden.",
+    "Vad kallar man en sovande tjur? En oxcillator.",
+    "Varför var toalettpapperet argt? För att det kändes utnyttjat.",
+    "Vad sa den ena lampan till den andra? Du lyser upp mitt liv.",
+    "Varför var boken så nervös? För att den skulle bli uppläst.",
+    "Vad sa ett berg till ett annat berg? Du är klippig!",
+    "Varför kan inte dinosaurier dansa? För att de är utdöda.",
+    "Vad sa den ena ägget till den andra? Du kläcks mig upp!",
+    "Varför delar inte skelett sina hemligheter? För att de har ingen kropp att prata med.",
+    "Vad gjorde musen på klockan? Den sprang runt som en tickande bomb.",
+    "Varför gick inte nöten över gatan? För att den var rädd för att bli krossad.",
+    "Vad gjorde ett träd när det blev hungrigt? Det åt lite lövsmörgås.",
+    "Varför gillar inte cyklister att stå stilla? För att de blir upphakade.",
+    "Vad sa den ena örat till det andra? Jag är allvarligt bekymrad för dig, du hör inte på mig.",
+    "Varför var matematikboken ledsen? För att den hade för många problem.",
+    "Vad gjorde den ena skjortan till den andra? Häng mig inte ute att torka!",
+    "Varför var pianot så tyst? För att det inte hade några nycklar.",
+    "Vad sa den ena skon till den andra? Vad är uppdraget? Vi har gått igenom det tillsammans!",
+    ]
+    x = random.randint(0,30)
+    return(skamt_lista[x])
 
 
 with st.sidebar:
@@ -116,5 +190,12 @@ if selected == "Om oss":
 
 if selected == "Generator":
     st.title("Generera olika saker")
+    
     if st.button("Raggningsreplik"):
         st.write(ragg())
+
+    if st.button("Skämt"):
+        st.write(skamt())
+
+    if st.button("Komplimang"):
+        st.write(komplimang())
