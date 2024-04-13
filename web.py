@@ -244,7 +244,7 @@ col1, col2, col3, col4 = st.columns([4, 4, 4, 4])
 if selected == "Hem":
     set_background("bckg.png")
     st.title("BangBros")
-    st.header("Stay tuned for more")
+    st.header("Laok älskar feta tjejer")
 
     with col1:
         st.image("Laok.jpg")
