@@ -5,6 +5,42 @@ from streamlit_option_menu import option_menu as op
 
 st.set_page_config(page_title="BangBros", page_icon="random", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
+def fun():
+    fun_facts_lista = [
+    "Bananer är bär, men jordgubbar är inte det!",
+    "Polarisstjärnan, även känd som Polstjärnan, förändrar inte positionen på himlen trots jordens rotation på grund av dess närhet till jordens rotationsaxel.",
+    "Honungsbin har ett dansspråk som de använder för att kommunicera med varandra om viktiga platser som matkällor.",
+    "Din näsa kan skilja mellan mer än 1 biljon olika lukter!",
+    "Havsglasögonen, även kända som maneter, har funnits på jorden i mer än 500 miljoner år, vilket gör dem äldre än dinosaurierna.",
+    "Koalor sover i genomsnitt 18 timmar om dagen på grund av deras kost med lågt näringsvärde.",
+    "De flesta svalor sover medan de flyger.",
+    "Krokodiler är nära släkt med fåglar, inte med ödlor.",
+    "Sniglar kan sova i flera år åt gången.",
+    "Nästan alla pandor i världen ägs av Kina; till och med de som finns i utlandet lånas bara ut för en begränsad tid.",
+    "Vulkaner kan även producera blå lavastötar, vilket beror på närvaron av svavel i magma.",
+    "Det finns fler träd på jorden än stjärnor i Vintergatan.",
+    "Huggormar kan inte bita under sin sömn.",
+    "Den största snöflingan som någonsin registrerats var 38 centimeter bred och 20 centimeter tjock!",
+    "Människans tår kan producera ungefär en liter svett per dag.",
+    "En vuxen människas kropp består av cirka 7 oktillioner (7 med 27 nollor) atomer.",
+    "Flodhästar är faktiskt närmare släkt med valar än med hästar.",
+    "Isbjörnar är vänsterhänta.",
+    "Man tror att floddelfiner kan använda ekolokalisering för att hitta mat, liknande sättet som valar gör.",
+    "Det finns fler än 1500 aktiva vulkaner på jorden.",
+    "På månen är det omöjligt att göra ett hål i marken eftersom det inte finns någon atmosfär för att bära bort stoftet och skapa ett hål.",
+    "Ormar kan inte bita sin tunga.",
+    "Kameleontögon kan rotera oberoende av varandra och fokusera på två olika saker samtidigt.",
+    "Koalor har fingeravtryck som liknar mänskliga fingeravtryck.",
+    "Ett träd kan producera cirka 260 pund syre per år.",
+    "En bläckfisk har tre hjärnor!",
+    "På grund av gravitationen på Jupiter skulle du kunna hoppa upp till tre gånger högre än på jorden.",
+    "Den kortaste kriget någonsin var mellan Storbritannien och Zanzibar den 27 augusti 1896. Zanzibar gav upp efter 38 minuter.",
+    "När du blundar ser du färger och mönster som kallas för \"färg och mönster\" hallucinationer.",
+    ]
+    v = random.randint(0, 30)
+    return(fun_facts_lista[v])
+
+
 
 def ragg():
     raggningsrepliker = [
@@ -189,8 +225,8 @@ if selected == "Om oss":
     st.write("I en dold by, insvept i skogens tysta sånger och månens sken, samlas fem själar – Oliver, Laok, Melvin, Josef och Omar. Deras liv flätas samman av en gåtfull ödets tråd. Oliver bär en nyckel smidd av månens ljus, Laok har en gåva från jorden, Melvin bär solens strålar, Josef bär gryningens nyckel och Omar bär drömmarnas gåva. Deras gemensamma sökande tar dem genom dimmiga skogspassager och tätt lövverk, på jakt efter sanningen som vilar i det förlorade arvets skuggor.")
 
 if selected == "Generator":
-    st.title("Generera olika saker")
     set_background("bckg.png")
+    st.title("Generera olika saker")
     
     if st.button("Raggningsreplik"):
         st.write(ragg())
@@ -200,3 +236,6 @@ if selected == "Generator":
 
     if st.button("Komplimang"):
         st.write(komplimang())
+
+    if st.button("Fun fact"):
+        st.write(fun())
