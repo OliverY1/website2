@@ -7,20 +7,7 @@ st.set_page_config(page_title="BangBros", page_icon="random", layout="centered",
     "Get help": "https://www.pornhub.com"
 },)
 
-footer {
-	
-	visibility: hidden;
-	
-	}
-footer:after {
-	content:'goodbye'; 
-	visibility: visible;
-	display: block;
-	position: relative;
-	background-color: red;
-	padding: 5px;
-	top: 2px;
-}
+
 
 def fun():
     fun_facts_lista = [
