@@ -294,4 +294,4 @@ if selected == "Generator":
 if selected == "Blogg":
     st.title("Blogg")
     st.header("2024-04-13")
-    st.write("Idag har hemsidan lanserats! "+"\U+1F389" +"\U+1F38A ")
+    st.write("Idag har hemsidan lanserats!")
