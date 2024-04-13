@@ -153,6 +153,24 @@ def skamt():
     x = random.randint(0,30)
     return(skamt_lista[x])
 
+def sidebar_bg(side_bg):
+
+   side_bg_ext = 'sideback.jpg'
+
+   st.markdown(
+      f"""
+      <style>
+      [data-testid="stSidebar"] > div:first-child {{
+          background: url(data:image/{side_bg_ext};base64,{base64.b64encode(open(side_bg, "rb").read()).decode()});
+      }}
+      </style>
+      """,
+      unsafe_allow_html=True,
+      )
+   
+side_bg = 'sideback.jpg'
+sidebar_bg(side_bg)
+
 def dep():
     ledsamma_fakta_lista = [
     "Varje dag dör tusentals barn av svält runt om i världen.",
@@ -192,12 +210,11 @@ def dep():
 
 
 
-
 with st.sidebar:
     selected = op(
         menu_title="Meny",
         options=["Hem", "Om oss", "Generator"],
-        icons=["house-door-fill", "people-fill", "robot"],
+        icons=["house-heart-fill", "calendar2-heart-fill", "robot"],
         menu_icon="list",
         default_index=0,
     )
