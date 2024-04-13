@@ -1,5 +1,4 @@
 import streamlit as st
-import random
 from streamlit_option_menu import option_menu as op
 
 st.set_page_config(page_title="BangBros", page_icon="random", layout="centered", initial_sidebar_state="auto", menu_items=None)
