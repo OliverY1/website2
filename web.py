@@ -215,7 +215,7 @@ with st.sidebar:
     selected = op(
         menu_title="Meny",
         options=["Hem", "Om oss", "Generator", "Blogg"],
-        icons=["house-heart-fill", "calendar2-heart-fill", "robot", "journal-text"],
+        icons=["house-door-fill", "people-fill", "robot", "journal-text"],
         menu_icon="list",
         default_index=0,
     )
