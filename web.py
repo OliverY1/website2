@@ -17,7 +17,7 @@ footer:after {
 	visibility: visible;
 	display: block;
 	position: relative;
-	#background-color: red;
+	background-color: red;
 	padding: 5px;
 	top: 2px;
 }
