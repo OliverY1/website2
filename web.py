@@ -9,7 +9,7 @@ st.set_page_config(page_title="BangBros", page_icon="random", layout="centered",
 
 hide_streamlit_style = """
             <style>
-            #MainMenu {visibility: hidden;}
+            MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             </style>
             """
