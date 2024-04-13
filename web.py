@@ -153,12 +153,49 @@ def skamt():
     x = random.randint(0,30)
     return(skamt_lista[x])
 
+def dep():
+    nedslående_facts_lista = [
+    "Varje år tar självmord fler liv än krig, mord och naturkatastrofer tillsammans.",
+    "Över 264 miljoner människor i världen lider av depression.",
+    "Enligt WHO lider en person av depression varje 40:e sekund någonstans i världen.",
+    "Ungefär 800 000 människor tar sitt liv varje år, vilket innebär att en person dör av självmord var 40:e sekund.",
+    "Depression är den ledande orsaken till funktionsnedsättning världen över.",
+    "Varje år tar över 17 miljoner människor sitt eget liv.",
+    "Ungefär 20procent av tonåringarna upplever depression före de når vuxen ålder.",
+    "Depression kan fördubbla risken för att utveckla hjärtsjukdomar.",
+    "Män är mindre benägna att söka hjälp för depression än kvinnor.",
+    "Mellan 2procent och 15procent av personer som upplever klinisk depression tar sitt liv.",
+    "Depression är den främsta orsaken till självmord bland unga vuxna i åldern 15-24 år.",
+    "Bara hälften av personer med depression får någon form av behandling.",
+    "Depression är inte bara en \"känslomässig\" sjukdom, den kan också påverka fysisk hälsa.",
+    "Depression är inte en känslomässig svaghet, utan en allvarlig medicinsk sjukdom.",
+    "Upp till 15procent av kvinnor upplever depression efter förlossningen.",
+    "Depression kan orsaka minnesproblem och nedsatt koncentrationsförmåga.",
+    "Personer med depression löper en högre risk att utveckla missbruk av alkohol och andra droger.",
+    "Att inte få tillräckligt med sömn kan förvärra symtomen på depression.",
+    "Depression kan påverka aptiten och leda till viktökning eller viktnedgång.",
+    "För många människor med depression tar det flera försök innan de hittar en behandling som fungerar för dem.",
+    "Depression kan påverka din förmåga att fungera i vardagen, inklusive ditt arbete och dina relationer.",
+    "Barn kan också drabbas av depression, även om de kanske inte kan uttrycka det på samma sätt som vuxna.",
+    "Även om det finns effektiva behandlingar för depression, får många människor aldrig tillgång till dem.",
+    "Social isolering och ensamhet kan förvärra symtomen på depression.",
+    "Depression kan påverka din förmåga att uppleva glädje och njutning.",
+    "Det är viktigt att söka professionell hjälp om du känner dig deprimerad eller har självmordstankar.",
+    "Självmord är en permanent lösning på en tillfällig smärta.",
+    "Människor med depression kan känna sig som om de är en belastning för sina nära och kära.",
+    "Det finns hopp och hjälp för personer som lider av depression.",
+    "Att prata med någon om dina känslor kan vara det första steget mot att må bättre."
+    ]
+    f = random.randint(0, 30)
+    return nedslående_facts_lista[f]
+
+
 
 with st.sidebar:
     selected = op(
         menu_title="Meny",
         options=["Hem", "Om oss", "Generator"],
-        icons=["house-door-fill", "people-fill", "robot"],
+        icons=["house-heart-fill", "calendar2-heart-fill", "robot"],
         menu_icon="list",
         default_index=0,
     )
@@ -230,3 +267,6 @@ if selected == "Generator":
 
     if st.button("Fun fact"):
         st.write(fun())
+
+    if st.button("Depressing fact"):
+        st.write(dep())
