@@ -267,7 +267,6 @@ with st.sidebar:
         default_index=0,
     )
 
-)
 
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
