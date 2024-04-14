@@ -202,7 +202,7 @@ def skamt():
 
 def sidebar_bg(side_bg):
 
-   side_bg_ext = 'bckg.png'
+   side_bg_ext = 'sideback.jpg'
 
    st.markdown(
       f"""
@@ -215,7 +215,7 @@ def sidebar_bg(side_bg):
       unsafe_allow_html=True,
       )
    
-side_bg = 'bckg.png'
+side_bg = 'sideback.jpg'
 sidebar_bg(side_bg)
 
 def dep():
