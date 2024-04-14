@@ -342,7 +342,7 @@ if selected == "Blogg":
     set_background("note.jpg")
     st.title("Blogg")
     st.subheader("2024-04-14")
-    st.write("ww3 är här, jag ska joina hamas nu. Länge leve all motstånd mot illegal ockupation, förtryck och folkmord. Må gud ha mercy på oss")
+    st.write("ww3 är här, jag ska joina Hamas nu. Länge leve all motstånd mot illegal ockupation, förtryck och folkmord. Må gud ha mercy på oss")
     st.write("_________________________")
     st.subheader("2024-04-13")
     st.write("Idag har hemsidan lanserats!")
