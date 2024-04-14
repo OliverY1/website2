@@ -3,7 +3,9 @@ import streamlit as st
 import random
 from streamlit_option_menu import option_menu as op
 
-st.set_page_config(page_title="Youness", page_icon="random", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="BangBros", page_icon="random", layout="centered", initial_sidebar_state="auto", menu_items={
+    "Get help": "https://www.pornhub.com"
+},)
 
 hide_streamlit_style = """
             <style>
@@ -121,7 +123,7 @@ def ragg():
     "Finns det en spegel i din ficka? För jag kan se mig själv i dina byxor.",
     "Har du en solskensdag? För du får min dag att lysa upp."
     ]
-    i = random.randint(0, 29)
+    i = random.randint(0, 30)
     return raggningsrepliker[i]
 
 def komplimang():
@@ -195,12 +197,12 @@ def skamt():
     "Varför var pianot så tyst? För att det inte hade några nycklar.",
     "Vad sa den ena skon till den andra? Vad är uppdraget? Vi har gått igenom det tillsammans!",
     ]
-    x = random.randint(0,29)
+    x = random.randint(0,30)
     return(skamt_lista[x])
 
 def sidebar_bg(side_bg):
 
-   side_bg_ext = 'sideback.jpg'
+   side_bg_ext = 'bckg.png'
 
    st.markdown(
       f"""
@@ -213,7 +215,7 @@ def sidebar_bg(side_bg):
       unsafe_allow_html=True,
       )
    
-side_bg = 'sideback.jpg'
+side_bg = 'bckg.png'
 sidebar_bg(side_bg)
 
 def dep():
@@ -250,8 +252,9 @@ def dep():
     "Många människor kämpar med att hitta meningen med livet och döden och känner sig vilsna och förvirrade i en värld som ibland kan kännas meningslös och absurd."
     ]
 
-    f = random.randint(0, 29)
+    f = random.randint(0, 30)
     return(ledsamma_fakta_lista[f])
+
 
 
 
@@ -263,6 +266,7 @@ selected = op(
         default_index=0,
         orientation="horizontal",
 )
+
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
         data = f.read()
