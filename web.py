@@ -255,15 +255,14 @@ def dep():
 
 
 
-with st.sidebar:
-    selected = op(
-        menu_title="Meny",
+selected = op(
+        menu_title=None,
         options=["Hem", "Om oss", "Generator", "Blogg"],
         icons=["house-door-fill", "people-fill", "robot", "journal-text"],
         menu_icon="list",
         default_index=0,
-    )
-
+        orientation="horizontal",
+)
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
         data = f.read()
